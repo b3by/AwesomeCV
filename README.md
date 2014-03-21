@@ -12,4 +12,6 @@ Icon list can be foun here: http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontaw
 
 Solarized colors are used: http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex
 
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/voice.png)
+
 Please report any error you get when using it.
