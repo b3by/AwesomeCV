@@ -101,9 +101,7 @@ Spares
 ------
 
 I generated my qrcode [here](https://www.the-qrcode-generator.com/).
-
 Icon list can be foun [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf).
-
 Solarized colors are used. Thanks to Chris for his great
 [overview](http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex).
 
