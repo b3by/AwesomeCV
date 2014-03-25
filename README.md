@@ -39,7 +39,7 @@ A simple titlebox can be generated as follows:
 
 It will produce something like this:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/titlebo.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/titlebox.png)
 
 A generic title element can be added with:
 
@@ -83,7 +83,7 @@ Technology}{Los Angeles, California}{Final grade: the best}
 
 You will get:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/smallvoice.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/smallvoic.png)
 
 The right part of a line can be declared as:
 
