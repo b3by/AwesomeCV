@@ -40,7 +40,7 @@ A simple titlebox can be generated as follows:
 
 It will produce something like this:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/titlebox.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/titlebox.png)
 
 A generic title element can be added with:
 
@@ -50,7 +50,7 @@ A generic title element can be added with:
 
 As result:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/generic.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/generic.png)
 
 Sections
 --------
@@ -84,7 +84,7 @@ Technology}{Los Angeles, California}{Final grade: the best}
 
 You will get:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/smallvoice.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/smallvoice.png)
 
 The right part of a line can be declared as:
 
@@ -96,7 +96,7 @@ the second line, argument 4 takes the last line)
 
 A little bit more elaborate example:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/voice.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/voice.png)
 
 Spares
 ------
