@@ -138,6 +138,10 @@
   \faTwitter & #1\\
 }
 
+\newcommand{\generic}[2]{
+  #1 & #2\\
+}
+
 \newcommand{\updated}[1]{
   \begin{flushright}
     \ifthenelse{\isempty{#1}}

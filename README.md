@@ -1,11 +1,17 @@
 AwesomeCV
 =========
 
-This is a simple latex class for CVs. It is heavily inspired by CompactCV (you
-can find it here: http://www.ctan.org/pkg/moderncv).
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/b3by)
+
+This is a simple latex class for CVs.
+It is heavily inspired by CompactCV (you can find it here:
+http://www.ctan.org/pkg/moderncv).
 
 AwesomeCV uses ```fontawesome``` packet for the icons, so ```lualatex``` is
 required when compiling.
+
+Titlebox
+--------
 
 A simple titlebox can be generated as follows:
 
@@ -36,12 +42,69 @@ It will produce something like this:
 
 ![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/titlebox.png)
 
+A generic title element can be added with:
+
+```latex
+\generic{\faMoney}{Rich as hell}
+```
+
+As result:
+
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/generic.png)
+
+Sections
+--------
+
+If you want to open a section, simply write:
+
+```latex
+\opensection{\faBook}{Education}
+```
+
+This will generate just the header for that section. The actual section content
+has to be declared within:
+
+```latex
+\begin{describesection}
+...
+\end{describesection}
+```
+
+A section line is composed by the left side and the right side. Simply write:
+
+```latex
+\leftside{\bf sep 1982}
+\rightsidecomplex{Master of Science in Chemistry}{California Institute of
+Technology}{Los Angeles, California}{Final grade: the best}
+\leftside{thesis title}
+\rightsideplain{\textsc{Badass Proton Radiography}}
+\leftside{advisor}
+\rightsideplain{Some guy}
+```
+
+You will get:
+
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/smallvoice.png)
+
+The right part of a line can be declared as:
+
+* ```\rightsideplain``` : one argument, one line
+* ```\rightsidesingle``` : four arguments, two lines (the last argument takes
+the second line)
+* ```\rightsidecomplex``` : four arguments, three lines (argumens 2 and 3 take
+the second line, argument 4 takes the last line)
+
+A little bit more elaborate example:
+
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/voice.png)
+
+Spares
+------
+
 I generated my qrcode here: https://www.the-qrcode-generator.com/
 
 Icon list can be foun here: http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf
 
 Solarized colors are used: http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex
-
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/voice.png)
 
 Please report any error you get when using it.
