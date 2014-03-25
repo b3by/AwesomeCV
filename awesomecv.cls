@@ -12,6 +12,7 @@
 \RequirePackage{xifthen}
 \RequirePackage{longtable}
 \RequirePackage[short,nodayofweek]{datetime}
+\RequirePackage{minibox}
 
 \RequirePackage{enumitem}
 \setlist{nolistsep}

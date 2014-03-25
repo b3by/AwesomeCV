@@ -4,7 +4,7 @@ AwesomeCV
 [![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/b3by)
 
 This is a simple latex class for CVs. It is heavily inspired by CompactCV class
-(you can find it here: http://www.ctan.org/pkg/moderncv).
+(you can find it [here](http://www.ctan.org/pkg/moderncv)).
 
 AwesomeCV uses ```fontawesome``` packet for the icons, so ```lualatex``` is
 required when compiling.
@@ -100,10 +100,11 @@ A little bit more elaborate example:
 Spares
 ------
 
-I generated my qrcode here: https://www.the-qrcode-generator.com/
+I generated my qrcode [here](https://www.the-qrcode-generator.com/).
 
-Icon list can be foun here: http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf
+Icon list can be foun [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf).
 
-Solarized colors are used: http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex
+Solarized colors are used. Thanks to Chris for his great
+[overview](http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex).
 
 Please report any error you get when using it.
