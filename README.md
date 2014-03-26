@@ -39,7 +39,7 @@ A simple titlebox can be generated as follows:
 
 It will produce something like this:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/tbox.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/pics/tbox.png)
 
 A generic title element can be added with:
 
@@ -49,7 +49,7 @@ A generic title element can be added with:
 
 As result:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/generic.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/pics/generic.png)
 
 Sections
 --------
@@ -83,7 +83,7 @@ Technology}{Los Angeles, California}{Final grade: the best}
 
 You will get:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/voice2.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/pics/voice2.png)
 
 The right part of a line can be declared as:
 
@@ -95,14 +95,13 @@ the second line, argument 4 takes the last line)
 
 A little bit more elaborate example:
 
-![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/example/voice.png)
+![alt tag](https://raw.githubusercontent.com/b3by/AwesomeCV/master/pics/voice.png)
 
 Spares
 ------
 
-I generated my qrcode [here](https://www.the-qrcode-generator.com/).
-Icon list can be foun [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf).
-Solarized colors are used. Thanks to Chris for his great
-[overview](http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex).
+* I generated my qrcode [here](https://www.the-qrcode-generator.com/).
+* Icon list can be foun [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf).
+* Solarized colors are used. Thanks to Chris for his great [overview](http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex).
 
 Please report any error you get when using it.
