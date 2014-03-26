@@ -54,10 +54,10 @@ As result:
 Sections
 --------
 
-If you want to open a section, simply write:
+If you want to open a section, write:
 
 ```latex
-\opensection{\faBook}{Education}
+\opensection{icon}{Title}
 ```
 
 This will generate just the header for that section. The actual section content
