@@ -155,6 +155,10 @@
   \vspace{-.2cm}
 }
 
+\newcommand{\subdescription}[3]{
+  \parbox{\rightMargin}{\hspace{.5cm}\large\color{#1}#2~~#3\normalsize} & \\[.1cm]
+}
+
 \newenvironment{describesection}
                {\begin{longtable}{>{\raggedleft}p{\leftMargin}p{\rightMargin}}}
                {\end{longtable}}

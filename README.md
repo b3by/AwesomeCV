@@ -3,7 +3,7 @@ AwesomeCV
 
 [![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/b3by)
 
-This is a simple latex class for CVs. It is heavily inspired by CompactCV class
+This is a simple latex class for CVs. It is heavily inspired by moderncv class
 (you can find it [here](http://www.ctan.org/pkg/moderncv)).
 
 AwesomeCV uses ```fontawesome``` packet for the icons, so ```lualatex``` is
@@ -92,6 +92,12 @@ The right part of a line can be declared as:
 the second line)
 * ```\rightsidecomplex``` : four arguments, three lines (argumens 2 and 3 take
 the second line, argument 4 takes the last line)
+
+Sections can contain subsections. You can add a subsection header with:
+
+```latex
+\subdescription{color}{icon}{Title}
+```
 
 A little bit more elaborate example:
 
