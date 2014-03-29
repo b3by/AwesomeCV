@@ -16,13 +16,6 @@
 \RequirePackage{enumitem}
 \setlist{nolistsep}
 
-\RequirePackage{geometry}
-\geometry{
-  left = 30mm,
-  right = 30mm,
-  bottom = 40mm,
-}
-
 \definecolor{base03}{HTML}{002B36}
 \definecolor{base02}{HTML}{073642}
 \definecolor{base01}{HTML}{586E75}
@@ -197,3 +190,12 @@
                          {\color{black}#4}\\[.1cm]
                          
 }
+
+\renewcommand*{\labelitemi}
+{\strut\textcolor{\maincolor}{\normalsize\faAngleRight}}
+
+\renewcommand*{\labelitemii}
+{\strut\textcolor{\maincolor}{\normalsize\faDoubleAngleRight}}
+
+\renewcommand*{\labelitemiii}
+{\strut\textcolor{\maincolor}{\normalsize -}}
