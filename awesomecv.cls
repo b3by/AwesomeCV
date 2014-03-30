@@ -36,6 +36,10 @@
 
 \setmainfont[FeatureFile=times-nr.fea]{Avenir Next}
 
+\newfontfamily{\FA}{FontAwesome}
+
+\providecommand\faSkype{{\FA\symbol{"F17E}}}
+
 \newtcolorbox{titlebox}{
   nobeforeafter,
   colframe=\maincolor,
@@ -129,6 +133,10 @@
 
 \newcommand{\twitter}[1]{
   \faTwitter & #1\\
+}
+
+\newcommand{\skype}[1]{
+  \faSkype & #1\\
 }
 
 \newcommand{\generic}[2]{
