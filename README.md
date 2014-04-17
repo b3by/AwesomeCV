@@ -1,7 +1,6 @@
 AwesomeCV
 =========
-
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/b3by)
+[![Gittip](http://img.shields.io/gittip/b3by.svg)](https://www.gittip.com/b3by/)
 
 This is a simple latex class for CVs. It is heavily inspired by moderncv class
 (you can find it [here](http://www.ctan.org/pkg/moderncv)).
