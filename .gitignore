@@ -1,4 +1,6 @@
 .DS_Store
+./example/*.aux
+./example/*.log
 *.acn
 *.acr
 *.alg

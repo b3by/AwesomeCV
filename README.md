@@ -1,13 +1,13 @@
 AwesomeCV
 =========
 
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/b3by)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-swag.svg)](http://forthebadge.com)
 
 This is a simple latex class for CVs. It is heavily inspired by moderncv class
 (you can find it [here](http://www.ctan.org/pkg/moderncv)).
 
-AwesomeCV uses ```fontawesome``` packet for the icons, so ```lualatex``` is
-required when compiling.
+AwesomeCV uses [fontawesome](http://fortawesome.github.io/Font-Awesome/) packet
+for the icons, so ```lualatex``` is required when compiling.
 
 Titlebox
 --------
@@ -107,7 +107,8 @@ Spares
 ------
 
 * I generated my qrcode [here](https://www.the-qrcode-generator.com/).
-* Icon list can be found [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/fontawesome.pdf).
-* Solarized colors are used. Thanks to Chris for his great [overview](http://chrisvoncsefalvay.com/codebase/solarized-listings-in-latex).
+* Icon list can be found [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/doc/fontawesome.pdf).
+* [Solarized](http://ethanschoonover.com/solarized) colors are used for the
+  color palette.
 
 Please report any error you get when using it.

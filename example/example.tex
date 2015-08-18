@@ -1,24 +1,17 @@
-\documentclass{awesomecv}
+\documentclass{../awesomecv}
 
-%% geometry packet for page margins
 \usepackage{geometry}
 \geometry{
-  left   = 30mm,
-  right  = 30mm,
+  left  =  30mm,
+  right =  30mm,
   bottom = 40mm,
-  top    = 40mm
-  
+  top =    40mm
 }
 
-%% color of the title frame and main titles
 \documentcolor{blue}
-%% color of info and second tag lines
 \secondcolor{base01}
-%% a third color
 \thirdcolor{base01}
-%% color for the section
 \sectioncolor{base02}
-
 
 \titlethicknessleft{3mm}
 
@@ -28,16 +21,16 @@
 \begin{document}
 
 \begin{titlebox}
-  
   \authorname{Walter White Sr.}{awesome \emph{curriculum vit\ae}}
-  
-  \qrcode{pics/qrcode.png}
+
+  \includegraphics[scale=.07]{../pics/ww.png}
+  \qrcode{../pics/qrcode.png}
 
   \tcblower
 
   \begin{showinfo}
     \birthdate{september 7th, 1959}
-    \location{Albuquerque, New Mexico}
+    \location{albuquerque, New Mexico}
     \mobile{1-505-1111}
     \phone{1-505-1111}
     \firstMail{gimmemeth@gmail.com}
@@ -46,7 +39,7 @@
     \twitter{https://twitter.com/BryanCranston}
     \generic{\faMoney}{Rich as hell}
   \end{showinfo}
-  
+
 \end{titlebox}
 
 \updated{}
@@ -55,8 +48,8 @@
 \begin{describesection}
 
   \leftside{\bf sep 1982}
-  \rightsidecomplex{Master of Science in Chemistry}{California Institute of Technology}{Los
-  Angeles, California}{Final grade: the best}
+  \rightsidecomplex{Master of Science in Chemistry}{California Institute of
+    Technology}{Los Angeles, California}{Final grade: the best}
 
   \leftside{thesis title}
   \rightsideplain{\textsc{Badass proton radiography}}
@@ -65,21 +58,18 @@
 
 \end{describesection}
 
-\opensection{\faBeaker}{Experience}
-
-%\vspace{.2cm}\hspace{.5cm}\large\color{base01}\faFrown~~Before\normalsize\color{black}
-
+\opensection{\faFlask}{Experience}
 \begin{describesection}
 
   \leftside{until \textbf{the end}}
   \rightsidesingle{Co-founder}{Gray Matter Technologies}{Albuquerque, New
-    Mexico}{It was my hard work. My research. And you and Elliott made millions
+    Nexico}{It was my hard work. My research. And you and Elliot made millions
     off it.}
-  
+
   \leftside{from \textbf{jan 2008} to \textbf{sep 2011}}
-  \rightsidecomplex{Meth manufacturer and dealer}{An RV, a
-    laundry, random houses}{Albuquerque, New Mexico}{Crystal meth productor and
-    drug kingpin. And no, I don't like fried chicken.}
+  \rightsidecomplex{Meth manufacturer and dealer}{An RV, a laundry, random
+    houses}{Albuquerque, New Mexico}{Crystal meth productor and drug
+    kingpin. And no, I don't like fried chicken.}
 
   \subdescription{base01}{\faTrophy}{Products}
 
@@ -89,21 +79,19 @@
   \leftside{description}
   \rightsideplain{\emph{Blue Sky is the bomb, bitch. Have you ever seen a
       quality of 99.1\%?}}
-  
-  
+
 \end{describesection}
 
-\opensection{\faCommentsAlt}{Languages}
+\opensection{\faComments}{Languages}
 \begin{describesection}
 
   \leftside{\color{blue}English}
   \rightsideplain{Mother tongue}
 
   \leftside{\color{blue}Junkish}
-  \rightsideplain{Fluent in conversation, adeguate comprehension.\newline
+  \rightsideplain{Fluent in conversation, adeguate comprehension. \newline
   \emph{(Jessie language certificate, level YoBitch/10)}}
-  
-\end{describesection}
 
+\end{describesection}
 
 \end{document}

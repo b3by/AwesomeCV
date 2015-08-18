@@ -40,6 +40,7 @@
 
 \providecommand\faSkype{{\FA\symbol{"F17E}}}
 
+
 \newtcolorbox{titlebox}{
   nobeforeafter,
   colframe=\maincolor,
@@ -97,11 +98,11 @@
 }
 
 \newenvironment{showinfo}
-               {\color{\secondfont}
-                 \onehalfspacing
-                 \small
-                 \begin{tabular}{p{.2cm}p{6cm}}}
-               {\end{tabular}}
+{\color{\secondfont}
+  \onehalfspacing
+  \small
+  \begin{tabular}{p{.2cm}p{6cm}}}
+  {\end{tabular}}
 
 \newcommand{\birthdate}[1]{
   \faCalendar & #1\\
@@ -169,34 +170,34 @@
 }
 
 \newcommand{\rightsidecomplex}[4] {
-  \large\color{\maincolor}#1\color{black}\normalsize\par
-  \ifthenelse{\isempty{#2}}
-             {}
-             {\normalsize\color{\thirdfont}\textsc{#2}
-               \ifthenelse{\isempty{#3}}
-                          {\par}
-                          {\small\color{black}~(#3)\par}}
-             \ifthenelse{\isempty{#4}}
-                        {}
-                        {\color{black}#4}
-  \\[.1cm]
+ \large\color{\maincolor}#1\color{black}\normalsize\par
+ \ifthenelse{\isempty{#2}}
+            {}
+            {\normalsize\color{\thirdfont}\textsc{#2}
+              \ifthenelse{\isempty{#3}}
+                         {\par}
+                         {\small\color{black}~(#3)\par}}
+            \ifthenelse{\isempty{#4}}
+                       {}
+                       {\color{black}#4}
+ \\[.1cm]
 }
 
 \newcommand{\rightsideplain}[1]{
-  \normalsize\color{black}#1\\[.1cm]
+ \normalsize\color{black}#1\\[.1cm]
 }
 
 \newcommand{\rightsidesingle}[4] {
-  \large\color{\maincolor}#1\color{black}\normalsize\ifthenelse{\isempty{#2}}
-              {}
-              {\normalsize,~\color{\thirdfont}\textsc{#2}
-                \ifthenelse{\isempty{#3}}
-                           {\par}
-                           {\small\color{black}(#3)\par}}
-              \ifthenelse{\isempty{#4}}
-                         {}
-                         {\color{black}#4}\\[.1cm]
-                         
+ \large\color{\maincolor}#1\color{black}\normalsize\ifthenelse{\isempty{#2}}
+             {}
+             {\normalsize,~\color{\thirdfont}\textsc{#2}
+               \ifthenelse{\isempty{#3}}
+                          {\par}
+                          {\small\color{black}(#3)\par}}
+             \ifthenelse{\isempty{#4}}
+                        {}
+                        {\color{black}#4}\\[.1cm]
+
 }
 
 \renewcommand*{\labelitemi}
