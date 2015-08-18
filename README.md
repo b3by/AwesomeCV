@@ -20,6 +20,7 @@ A simple titlebox can be generated as follows:
 \authorname{Walter White Sr.}{awesome \emph{curriculum vit\ae}}
 
 \qrcode{qrcode.png}
+\includegraphics[scale=.07]{../pics/ww.png}
 
 \tcblower
 
