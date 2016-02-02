@@ -40,7 +40,12 @@
 
 \providecommand\faSkype{{\FA\symbol{"F17E}}}
 \providecommand\faFlask{{\FA\symbol{"F0C3}}}
-
+\providecommand\faGraduationCap{{\FA\symbol{"F19D}}}
+\providecommand\faUniversity{{\FA\symbol{"F19C}}}
+\providecommand\faFax{{\FA\symbol{"F1AC}}}
+\providecommand\faGoogle{{\FA\symbol{"F1A0}}}
+\providecommand\faLanguage{{\FA\symbol{"F1AB}}}
+\providecommand\faThumbTack{{\FA\symbol{"F08D}}}
 
 \newtcolorbox{titlebox}{
   nobeforeafter,
@@ -186,6 +191,10 @@
 
 \newcommand{\rightsideplain}[1]{
  \normalsize\color{black}#1\\[.1cm]
+}
+
+\newcommand{\rightsidedoubleplain}[2]{
+  \large\color{\maincolor}#1\color{black}\normalsize\par #2\\[.1cm]
 }
 
 \newcommand{\rightsidesingle}[4] {
