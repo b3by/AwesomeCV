@@ -6,8 +6,8 @@ AwesomeCV
 This is a simple latex class for CVs. It is heavily inspired by moderncv class
 (you can find it [here](http://www.ctan.org/pkg/moderncv)).
 
-AwesomeCV uses [fontawesome](http://fortawesome.github.io/Font-Awesome/) packet
-for the icons, so ```lualatex``` is required when compiling.
+AwesomeCV uses [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/) icon
+set, so ```lualatex``` is required when compiling.
 
 Titlebox
 --------
