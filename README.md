@@ -108,7 +108,7 @@ Spares
 ------
 
 * I generated my qrcode [here](https://www.the-qrcode-generator.com/).
-* Icon list can be found [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/doc/fontawesome.pdf).
+* Icon list can be found [here](http://ctan.mirror.garr.it/mirrors/CTAN/fonts/fontawesome/doc/fontawesome.pdf) (the package seems to be quite old, so please for a full list of icons refer to [this](https://fortawesome.github.io/Font-Awesome/icons/)).
 * [Solarized](http://ethanschoonover.com/solarized) colors are used for the
   color palette.
 

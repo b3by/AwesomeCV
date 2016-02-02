@@ -36,9 +36,10 @@
 
 \setmainfont[FeatureFile=times-nr.fea]{Avenir Next}
 
-\newfontfamily{\FA}{FontAwesome}
+\newfontfamily\FA[Path=../fonts/]{FontAwesome}
 
 \providecommand\faSkype{{\FA\symbol{"F17E}}}
+\providecommand\faFlask{{\FA\symbol{"F0C3}}}
 
 
 \newtcolorbox{titlebox}{
